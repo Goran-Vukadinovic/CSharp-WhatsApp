@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Blaster</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net48</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+    <Platforms>AnyCPU;x86</Platforms>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>10.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+    <BaseOutputPath>..\bin\</BaseOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Blaster.Properties.Resources1.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="mycurve25519">
+      <HintPath>..\Reference\mycurve25519.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="mylibaxolotl">
+      <HintPath>..\Reference\mylibaxolotl.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Reference\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NReco.VideoConverter">
+      <HintPath>..\Reference\NReco.VideoConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="zlibnet">
+      <HintPath>..\Reference\zlibnet.dll</HintPath>
+    </Reference>
+    <Reference Include="Security.Cryptography">
+      <HintPath>..\Reference\Security.Cryptography.dll</HintPath>
+    </Reference>
+    <Reference Include="channelLoader">
+      <HintPath>..\Reference\channelLoader.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

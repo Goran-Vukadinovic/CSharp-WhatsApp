@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Blaster_7.0.2", "Blaster_7.0.2\Blaster_7.0.2.csproj", "{58CBC327-BA85-4E3E-9B97-E3B12A828A79}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58CBC327-BA85-4E3E-9B97-E3B12A828A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58CBC327-BA85-4E3E-9B97-E3B12A828A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58CBC327-BA85-4E3E-9B97-E3B12A828A79}.Debug|x86.ActiveCfg = Debug|x86
+		{58CBC327-BA85-4E3E-9B97-E3B12A828A79}.Debug|x86.Build.0 = Debug|x86
+		{58CBC327-BA85-4E3E-9B97-E3B12A828A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58CBC327-BA85-4E3E-9B97-E3B12A828A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58CBC327-BA85-4E3E-9B97-E3B12A828A79}.Release|x86.ActiveCfg = Release|x86
+		{58CBC327-BA85-4E3E-9B97-E3B12A828A79}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B78ACA6-8ACC-4470-99A2-16ECF18242FF}
+	EndGlobalSection
+EndGlobal
